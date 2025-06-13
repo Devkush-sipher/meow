@@ -1,0 +1,5 @@
+streamlit>=1.28          # needed for st.cache_resource
+transformers==4.41.0     # or whatever is current/stable
+torch==2.3.0+cpu         # CPU wheels are much smaller; omit “+cpu” if you have GPU
+sentencepiece            # required by many multilingual models
+accelerate               # recommended by 🤗 for larger models
